@@ -1,0 +1,57 @@
+/* Default Styles */
+body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+    font-family: "inter", serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #677788;
+    text-decoration: none;
+    font-size: 14px;
+}
+/* ... */
+
+
+header {
+    display: flex;
+    background-color: #F6F8FA;
+    height: 86px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px 10px 30px;
+    max-width: 100%;
+}
+
+.header_logo {
+    width: 154.9px;
+    height: 46.1px;
+    gap: 10px;
+}
+
+.header_nav {
+    display: flex;
+    margin-left: auto;
+    gap: 30px;
+    padding: 6px 14px 6px 14px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+}
+
+.buy {
+    padding: 15px 25px 15px 25px;
+    color: white;
+    font-size: 12px;
+    background-color: #2476FF;
+    border: none;
+    border-radius: 30px;
+}
