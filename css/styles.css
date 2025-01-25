@@ -4,6 +4,8 @@ body {
 	padding: 0;
 	border: 0;
     font-family: "inter", serif;
+    max-width: 1024px;
+    margin: auto;
 }
 
 ul {
@@ -17,6 +19,12 @@ a {
 }
 /* ... */
 
+.topsection {
+    height: 532px;
+    background-image: url("../assets/bg/background-top.svg");
+    background-repeat: no-repeat;
+    background-position-y: -1px;
+}
 
 header {
     display: flex;
@@ -26,7 +34,6 @@ header {
     align-items: center;
     justify-content: center;
     padding: 10px 30px 10px 30px;
-    max-width: 100%;
 }
 
 .header_logo {
@@ -54,4 +61,60 @@ header {
     background-color: #2476FF;
     border: none;
     border-radius: 30px;
+}
+
+.heroSection {
+    display: flex;
+    padding: 40px 30px 0px 30px;
+}
+
+.leftHero {
+    display: flex;
+    flex-direction: column;
+    max-height: 406px;
+    gap: 30px;
+    padding-bottom: 60px;
+}
+
+.leftHeroTitle {
+    width: 334px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.leftHeroTitle p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #677788;
+}
+
+.heroActions {
+    display: flex;
+    gap: 24px;
+    width: 482px;
+    align-items: center;
+}
+
+.play-video {
+    display: flex;
+    border: 0;
+    border-radius: 30px;
+    padding: 15px 25px 15px 25px;
+    background-color: #2476FF;
+    color: white;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.heroActions a {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.rightHero {
+    width: 482px;
 }
