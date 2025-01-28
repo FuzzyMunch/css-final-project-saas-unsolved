@@ -1,5 +1,5 @@
 /* Default Styles */
-. {
+:root {
   box-sizing: border-box;
 }
 
@@ -120,12 +120,19 @@ h1 {
 }
 
 .rightHero {
+  position: relative;
   width: 482px;
 }
 
 /* Right Hero Image Styles */
 .rightHero div {
-  position: relative;
+  display: flex;
+  position: absolute;
+  border-radius: 40px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px 13px 0px #000000;
 }
 
 .size1 {
@@ -146,5 +153,40 @@ h1 {
 .size2Img {
   width: 40px;
   height: 40px;
+}
+
+#asana-container {
+  left: 380px;
+  top: 10px;
+}
+
+#atlassian-container {
+  left: 175px;
+  top: 10px;
+}
+
+#calendar-container {
+  left: 364px;
+  top: 310px;
+}
+
+#google-ads-container {
+  left: 155px;
+  top: 290px;
+}
+
+#google-container {
+  left: 64px;
+  top: 10px;
+}
+
+#paypal-container {
+  left: 44px;
+  top: 172px;
+}
+
+#weave-container {
+  left: 262px;
+  top: 172px;
 }
 /* ... */
