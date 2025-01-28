@@ -1,120 +1,150 @@
 /* Default Styles */
+. {
+  box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-	padding: 0;
-	border: 0;
-    font-family: "inter", serif;
-    max-width: 1024px;
-    margin: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "inter", serif;
+  max-width: 1024px;
+  margin: auto;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    color: #677788;
-    text-decoration: none;
-    font-size: 14px;
+  color: #677788;
+  text-decoration: none;
+  font-size: 14px;
 }
 /* ... */
 
 .topsection {
-    height: 532px;
-    background-image: url("../assets/bg/background-top.svg");
-    background-repeat: no-repeat;
-    background-position-y: -1px;
+  height: 532px;
+  background-image: url("../assets/bg/background-top.svg");
+  background-repeat: no-repeat;
+  background-position-y: -1px;
 }
 
 header {
-    display: flex;
-    background-color: #F6F8FA;
-    height: 86px;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 30px 10px 30px;
+  display: flex;
+  background-color: #f6f8fa;
+  height: 86px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px 10px 30px;
 }
 
 .header_logo {
-    width: 154.9px;
-    height: 46.1px;
-    gap: 10px;
+  width: 154.9px;
+  height: 46.1px;
+  gap: 10px;
 }
 
 .header_nav {
-    display: flex;
-    margin-left: auto;
-    gap: 30px;
-    padding: 6px 14px 6px 14px;
+  display: flex;
+  margin-left: auto;
+  gap: 30px;
+  padding: 6px 14px 6px 14px;
 }
 
 .nav-list {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .buy {
-    padding: 15px 25px 15px 25px;
-    color: white;
-    font-size: 12px;
-    background-color: #2476FF;
-    border: none;
-    border-radius: 30px;
+  padding: 15px 25px 15px 25px;
+  color: white;
+  font-size: 12px;
+  background-color: #2476ff;
+  border: none;
+  border-radius: 30px;
 }
 
 .heroSection {
-    display: flex;
-    padding: 40px 30px 0px 30px;
+  display: flex;
+  padding: 40px 30px 0px 30px;
 }
 
 .leftHero {
-    display: flex;
-    flex-direction: column;
-    max-height: 406px;
-    gap: 30px;
-    padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  max-height: 406px;
+  gap: 30px;
+  padding-bottom: 60px;
 }
 
 .leftHeroTitle {
-    width: 334px;
+  width: 334px;
 }
 
 h1 {
-    font-size: 40px;
-    font-weight: 500;
+  font-size: 40px;
+  font-weight: 500;
 }
 
 .leftHeroTitle p {
-    font-size: 14px;
-    font-weight: 500;
-    color: #677788;
+  font-size: 14px;
+  font-weight: 500;
+  color: #677788;
 }
 
 .heroActions {
-    display: flex;
-    gap: 24px;
-    width: 482px;
-    align-items: center;
+  display: flex;
+  gap: 24px;
+  width: 482px;
+  align-items: center;
 }
 
 .play-video {
-    display: flex;
-    border: 0;
-    border-radius: 30px;
-    padding: 15px 25px 15px 25px;
-    background-color: #2476FF;
-    color: white;
-    gap: 8px;
-    font-size: 12px;
-    font-weight: 500;
+  display: flex;
+  border: 0;
+  border-radius: 30px;
+  padding: 15px 25px 15px 25px;
+  background-color: #2476ff;
+  color: white;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .heroActions a {
-    font-size: 14px;
-    font-weight: 700;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .rightHero {
-    width: 482px;
+  width: 482px;
 }
+
+/* Right Hero Image Styles */
+.rightHero div {
+  position: relative;
+}
+
+.size1 {
+  width: 80px;
+  height: 80px;
+}
+
+.size2 {
+  width: 60px;
+  height: 60px;
+}
+
+.size1Img {
+  width: 48px;
+  height: 48px;
+}
+
+.size2Img {
+  width: 40px;
+  height: 40px;
+}
+/* ... */
