@@ -23,8 +23,8 @@ a {
 }
 /* ... */
 
+/* Header Styles */
 .topsection {
-  height: 532px;
   background-image: url("../assets/bg/background-top.svg");
   background-repeat: no-repeat;
   background-position-y: -1px;
@@ -66,12 +66,15 @@ header {
   border: none;
   border-radius: 30px;
 }
+/* ... */
 
 .heroSection {
   display: flex;
   padding: 40px 30px 0px 30px;
+  height: 446px;
 }
 
+/* Left Hero Styles */
 .leftHero {
   display: flex;
   flex-direction: column;
@@ -123,6 +126,7 @@ h1 {
   position: relative;
   width: 482px;
 }
+/* ... */
 
 /* Right Hero Image Styles */
 .rightHero div {
@@ -190,3 +194,30 @@ h1 {
   top: 172px;
 }
 /* ... */
+
+.whyFrontSect {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 0px 30px 80px 30px;
+}
+
+.whyFrontTitle {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  gap: 10px;
+  width: 600px;
+  height: 89px;
+}
+
+.whyFrontTitle h2 {
+  margin: auto;
+  font-size: 26px;
+}
+
+.whyFrontTitle p {
+  margin: 0;
+  font-size: 16px;
+}
